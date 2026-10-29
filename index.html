@@ -131,9 +131,9 @@ h2{font:600 25px/1.2 var(--serif);margin:0;color:var(--brown)}
   position:relative;
 }
 .restro-logo-wrap{
-  width:min(100%,230px);
-  margin:0 auto 14px;
-  padding:10px;
+  width:min(100%,190px);
+  margin:0 auto 12px;
+  padding:8px;
   background:#FAF5EE;
   border-radius:12px;
   border:1px solid rgba(217,188,133,0.5);
@@ -159,8 +159,11 @@ h2{font:600 25px/1.2 var(--serif);margin:0;color:var(--brown)}
   margin:0 0 10px;
   background:var(--ivory);
 }
+.restro-card h2{
+  margin:4px 0 6px;
+}
 .restro-card p{
-  margin:0 0 16px;
+  margin:0 0 14px;
   color:var(--soft);
   font-size:15px;
   line-height:1.45;
@@ -235,16 +238,26 @@ h2{font:600 25px/1.2 var(--serif);margin:0;color:var(--brown)}
    <a class="btn solid" href="tel:+919237609031">Call to book a room <b>9237609031</b></a>
   </section>
 
-  <!-- Restro Section (Redesigned) -->
+  <!-- Restro Section -->
   <section class="svc" aria-labelledby="s2">
    <div class="restro-card">
     <div class="restro-logo-wrap">
-     <img class="restro-logo" src="img/sohans.jpg" alt="Sohan’s Restro logo" width="800" height="800" loading="lazy">
+     <img class="restro-logo" src="img/sohans.jpg" alt="Sohan’s Restro logo" width="800" height="800">
     </div>
     <span class="cuisine-tag">Multicuisine Dining</span>
-    <h2 id="s2" class="sr-only">Sohan’s Restro</h2>
-    <p>Authentic Indian, Tandoor & Chinese delicacies crafted for memorable family dining.</p>
-    <a class="btn" href="tel:+919237609032">Call for a table / Order <b>9237609032</b></a>
+    <h2 id="s2">Sohan’s Restro</h2>
+    <p>Authentic Indian, Tandoori & Chinese delicacies in a welcoming family ambiance.</p>
+
+    <div class="media-card" style="margin:16px 0 10px">
+     <div class="snap" tabindex="0" role="group" aria-label="Sohan’s Restro dining hall photos, swipe to see more">
+      <img src="img/restro3.jpg" alt="Sohan’s Restro grand dining hall with ambient lighting" width="1200" height="900">
+      <img src="img/restro1.jpg" alt="Spacious restaurant interior and seating" width="1200" height="900" loading="lazy">
+      <img src="img/restro2.jpg" alt="Family dining section at Sohan’s Restro" width="1200" height="900" loading="lazy">
+     </div>
+    </div>
+    <p class="hint" style="margin-bottom:18px">Swipe for restaurant photos ↔</p>
+
+    <a class="btn solid" href="tel:+919237609032">Call for a table / Order <b>9237609032</b></a>
    </div>
   </section>
 
